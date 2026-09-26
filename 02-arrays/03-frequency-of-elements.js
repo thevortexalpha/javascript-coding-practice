@@ -7,6 +7,7 @@ const arrayWithDuplicates = [2, 3, 5, 2, 1, 3, 3, 5, 1, 2, 69];
 
 /** @param {Array<number>} arrayWithDup */
 function frequency(arrayWithDup) {
+    /** @type {{ [key: string]: number }} */
     const freqRep = {};
 
     for(let i=0; i<arrayWithDup.length; i++){
